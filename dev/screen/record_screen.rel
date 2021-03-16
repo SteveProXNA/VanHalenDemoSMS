@@ -1,0 +1,198 @@
+;!FILE record_screen.asm
+XL2
+H 9 areas 86 global symbols
+M record_screen
+O -mz80
+S _engine_record_manager_init Ref0000
+S _engine_record_manager_decrement Ref0000
+S _global_record_object Ref0000
+S _devkit_SMS_displayOn Ref0000
+S _engine_record_manager_increment Ref0000
+S .__.ABS. Def0000
+S _engine_cursor_manager_init Ref0000
+S _engine_input_manager_hold Ref0000
+S _devkit_SMS_displayOff Ref0000
+S _engine_asm_manager_clear_VRAM Ref0000
+S _engine_record_manager_load Ref0000
+S _engine_storage_manager_write Ref0000
+S _devkit_SMS_setBGScrollY Ref0000
+S _engine_scroll_manager_reset Ref0000
+A _CODE size 8D flags 0 addr 0
+S A$record_screen$180 Def0055
+S A$record_screen$171 Def004F
+S A$record_screen$153 Def003B
+S A$record_screen$144 Def0032
+S A$record_screen$135 Def002C
+S A$record_screen$108 Def0018
+S C$record_screen.c$20$1$29 Def0003
+S A$record_screen$190 Def0060
+S A$record_screen$181 Def0056
+S A$record_screen$172 Def0050
+S A$record_screen$163 Def0045
+S A$record_screen$154 Def003C
+S A$record_screen$145 Def0034
+S C$record_screen.c$60$1$35 Def0081
+S C$record_screen.c$55$1$31 Def007B
+S C$record_screen.c$51$2$34 Def0076
+S C$record_screen.c$28$1$31 Def000E
+S A$record_screen$245 Def0084
+S A$record_screen$191 Def0061
+S A$record_screen$182 Def0059
+S A$record_screen$164 Def0048
+S A$record_screen$155 Def003E
+S A$record_screen$146 Def0035
+S C$record_screen.c$61$1$35 Def0084
+S C$record_screen.c$56$1$31 Def0080
+S C$record_screen.c$52$2$34 Def0079
+S C$record_screen.c$29$1$31 Def0016
+S C$record_screen.c$22$1$29 Def0006
+S A$record_screen$228 Def0080
+S A$record_screen$192 Def0062
+S A$record_screen$183 Def005A
+S A$record_screen$156 Def003F
+S A$record_screen$147 Def0036
+S A$record_screen$129 Def0028
+S C$record_screen.c$62$1$35 Def0087
+S A$record_screen$193 Def0065
+S A$record_screen$157 Def0040
+S A$record_screen$148 Def0039
+S A$record_screen$139 Def002F
+S C$record_screen.c$63$1$35 Def008A
+S C$record_screen.c$58$1$31 Def0081
+S C$record_screen.c$45$2$34 Def0052
+S C$record_screen.c$37$2$33 Def002C
+S A$record_screen$257 Def008A
+S A$record_screen$194 Def0066
+S A$record_screen$158 Def0043
+S A$record_screen$149 Def003A
+S C$record_screen.c$64$1$35 Def008A
+S C$record_screen.c$38$2$33 Def002F
+S A$record_screen$249 Def0087
+S A$record_screen$177 Def0052
+S A$record_screen$168 Def004B
+S A$record_screen$159 Def0044
+S XFrecord_screen$load_record$0$0 Def008A
+S C$record_screen.c$47$2$34 Def005B
+S A$record_screen$187 Def005B
+S A$record_screen$178 Def0053
+S A$record_screen$169 Def004C
+S C$record_screen.c$48$2$34 Def0067
+S C$record_screen.c$18$1$29 Def0000
+S A$record_screen$188 Def005E
+S A$record_screen$179 Def0054
+S C$record_screen.c$19$1$29 Def0003
+S A$record_screen$198 Def0067
+S A$record_screen$189 Def005F
+S C$record_screen.c$16$0$0 Def0000
+S A$record_screen$199 Def006A
+S XG$screen_record_screen_update$0$0 Def0080
+S A$record_screen$71 Def0000
+S G$screen_record_screen_load$0$0 Def0000
+S A$record_screen$90 Def0008
+S A$record_screen$91 Def000C
+S A$record_screen$79 Def0003
+S A$record_screen$98 Def000E
+S A$record_screen$89 Def0006
+S A$record_screen$99 Def0010
+S _screen_record_screen_load Def0000
+S XG$screen_record_screen_load$0$0 Def0003
+S Frecord_screen$load_record$0$0 Def0081
+S G$screen_record_screen_update$0$0 Def0006
+S A$record_screen$100 Def0011
+S A$record_screen$200 Def006B
+S A$record_screen$101 Def0012
+S A$record_screen$210 Def0076
+S A$record_screen$201 Def006C
+S A$record_screen$102 Def0015
+S A$record_screen$220 Def007B
+S A$record_screen$211 Def0078
+S A$record_screen$202 Def006D
+S A$record_screen$130 Def0029
+S A$record_screen$121 Def0020
+S A$record_screen$112 Def001A
+S A$record_screen$221 Def007D
+S A$record_screen$203 Def006E
+S A$record_screen$131 Def002A
+S A$record_screen$122 Def0022
+S C$record_screen.c$41$1$31 Def0032
+S A$record_screen$204 Def0071
+S A$record_screen$123 Def0023
+S C$record_screen.c$51$1$31 Def0045
+S C$record_screen.c$42$1$31 Def003B
+S C$record_screen.c$31$2$32 Def001A
+S C$record_screen.c$24$1$31 Def000E
+S A$record_screen$241 Def0081
+S A$record_screen$223 Def007E
+S A$record_screen$205 Def0072
+S A$record_screen$124 Def0024
+S A$record_screen$106 Def0016
+S C$record_screen.c$43$1$31 Def004B
+S C$record_screen.c$34$1$31 Def0020
+S C$record_screen.c$32$2$32 Def001D
+S _screen_record_screen_update Def0006
+S A$record_screen$215 Def0079
+S A$record_screen$206 Def0075
+S A$record_screen$170 Def004D
+S A$record_screen$125 Def0027
+S A$record_screen$116 Def001D
+S A$record_screen$107 Def0017
+S C$record_screen.c$35$1$31 Def0028
+A _DATA size 1 flags 0 addr 0
+S Frecord_screen$event_stage$0$0 Def0000
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 C3 81 00
+R 00 00 00 00 02 03 0D 00 00 06 00 00
+T 06 00
+R 00 00 00 00
+T 06 00 DD E5 DD 21 00 00 DD 39 3E 04 F5 33 CD
+R 00 00 00 00
+T 13 00 00 00 33 7D B7 28 06 CD 00 00 CD 81 00
+R 00 00 00 00 02 02 07 00 02 0A 01 00 00 0D 00 00
+T 20 00
+R 00 00 00 00
+T 20 00 3E 08 F5 33 CD 00 00 33 7D B7 28 06 CD
+R 00 00 00 00 02 07 07 00
+T 2D 00 00 00 CD 81 00
+R 00 00 00 00 02 02 04 00 00 05 00 00
+T 32 00
+R 00 00 00 00
+T 32 00 3E 10 F5 33 CD 00 00 33 4D C5 3E 20 F5 33
+R 00 00 00 00 02 07 07 00
+T 40 00 CD 00 00 33 C1 DD 5E 04 DD 56 05 79 B7 20
+R 00 00 00 00 02 03 07 00
+T 4E 00 03 B5 28 29
+R 00 00 00 00
+T 52 00
+R 00 00 00 00
+T 52 00 D5 AF F5 33 CD 00 00 33 D1 21 00 00 46 D5
+R 00 00 00 00 02 07 0C 00 02 0C 02 00
+T 60 00 C5 33 CD 00 00 33 D1 21 00 00 46 D5 C5 33
+R 00 00 00 00 02 05 00 00 02 0A 02 00
+T 6E 00 CD 00 00 33 CD 00 00 D1 3E 04 12 18 03
+R 00 00 00 00 02 03 06 00 02 07 0B 00
+T 7B 00
+R 00 00 00 00
+T 7B 00 3E 05 12
+R 00 00 00 00
+T 7E 00
+R 00 00 00 00
+T 7E 00 DD E1 C9
+R 00 00 00 00
+T 81 00
+R 00 00 00 00
+T 81 00 CD 00 00 CD 00 00 CD 00 00 C3
+R 00 00 00 00 02 03 08 00 02 06 09 00 02 09 0A 00
+T 8B 00 00 00
+R 00 00 00 00 02 02 03 00

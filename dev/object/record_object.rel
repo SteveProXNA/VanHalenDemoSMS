@@ -1,0 +1,107 @@
+XL2
+H 9 areas 30 global symbols
+M record_object
+O -mz80
+S _VanHalen1980__tiles__psgcompr Ref0000
+S _VanHalen1981__tiles__psgcompr Ref0000
+S _VanHalen1991__tiles__psgcompr Ref0000
+S _VanHalen1982__tiles__psgcompr Ref0000
+S _VanHalen1984__tiles__psgcompr Ref0000
+S _VanHalen1995__tiles__psgcompr Ref0000
+S _VanHalen1986__tiles__psgcompr Ref0000
+S _VanHalen1978__tiles__psgcompr Ref0000
+S _VanHalen2012__tilemap__stmcompr Ref0000
+S _VanHalen1988__tiles__psgcompr Ref0000
+S _VanHalen1979__tiles__psgcompr Ref0000
+S _VanHalen1998__tiles__psgcompr Ref0000
+S _VanHalen2012__palette__bin Ref0000
+S _VanHalen1980__tilemap__stmcompr Ref0000
+S _VanHalen1981__tilemap__stmcompr Ref0000
+S _VanHalen1991__tilemap__stmcompr Ref0000
+S _VanHalen1982__tilemap__stmcompr Ref0000
+S .__.ABS. Def0000
+S _VanHalen1984__tilemap__stmcompr Ref0000
+S _VanHalen1995__tilemap__stmcompr Ref0000
+S _VanHalen1986__tilemap__stmcompr Ref0000
+S _VanHalen1980__palette__bin Ref0000
+S _VanHalen1978__tilemap__stmcompr Ref0000
+S _VanHalen1981__palette__bin Ref0000
+S _VanHalen1988__tilemap__stmcompr Ref0000
+S _VanHalen1979__tilemap__stmcompr Ref0000
+S _VanHalen1991__palette__bin Ref0000
+S _VanHalen1982__palette__bin Ref0000
+S _VanHalen1998__tilemap__stmcompr Ref0000
+S _VanHalen1984__palette__bin Ref0000
+S _VanHalen1995__palette__bin Ref0000
+S _VanHalen1986__palette__bin Ref0000
+S _VanHalen1978__palette__bin Ref0000
+S _VanHalen1988__palette__bin Ref0000
+S _VanHalen1979__palette__bin Ref0000
+S _VanHalen1998__palette__bin Ref0000
+S _VanHalen2012__tiles__psgcompr Ref0000
+A _CODE size C flags 0 addr 0
+S G$record_tiles_bank$0$0 Def0000
+S _record_tiles_bank Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 48 flags 0 addr 0
+S G$record_tiles_data$0$0 Def0000
+S G$record_tilemap_data$0$0 Def0018
+S _record_tiles_data Def0000
+S G$record_palette_data$0$0 Def0030
+S _record_tilemap_data Def0018
+S _record_palette_data Def0030
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 48 flags 0 addr 0
+S Frecord_object$__xinit_record_tiles_data$0$0 Def0000
+S Frecord_object$__xinit_record_tilemap_data$0$0 Def0018
+S Frecord_object$__xinit_record_palette_data$0$0 Def0030
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 02 00
+T 18 00
+R 00 00 02 00
+T 18 00
+R 00 00 02 00
+T 30 00
+R 00 00 02 00
+T 30 00
+R 00 00 02 00
+T 00 00
+R 00 00 00 00
+T 00 00 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+R 00 00 00 00
+T 00 00
+R 00 00 07 00
+T 00 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 07 00 02 04 0A 00 02 06 00 00
+T 06 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 01 00 02 04 03 00 02 06 04 00
+T 0C 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 06 00 02 04 09 00 02 06 02 00
+T 12 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 05 00 02 04 0B 00 02 06 24 00
+T 18 00
+R 00 00 07 00
+T 18 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 16 00 02 04 19 00 02 06 0D 00
+T 1E 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 0E 00 02 04 10 00 02 06 12 00
+T 24 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 14 00 02 04 18 00 02 06 0F 00
+T 2A 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 13 00 02 04 1C 00 02 06 08 00
+T 30 00
+R 00 00 07 00
+T 30 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 20 00 02 04 22 00 02 06 15 00
+T 36 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 17 00 02 04 1B 00 02 06 1D 00
+T 3C 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 1F 00 02 04 21 00 02 06 1A 00
+T 42 00 00 00 00 00 00 00
+R 00 00 07 00 02 02 1E 00 02 04 23 00 02 06 0C 00

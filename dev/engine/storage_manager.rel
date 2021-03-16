@@ -1,0 +1,188 @@
+;!FILE storage_manager.asm
+XL2
+H 9 areas 84 global symbols
+M storage_manager
+O -mz80
+S _global_record_object Ref0000
+S _devkit_SMS_SRAM Ref0000
+S _devkit_SMS_disableSRAM Ref0000
+S .__.ABS. Def0000
+S _devkit_SMS_enableSRAM Ref0000
+A _CODE size 8B flags 0 addr 0
+S G$engine_storage_manager_erase$0$0 Def0069
+S C$storage_manager.c$40$1$20 Def0045
+S A$storage_manager$220 Def006D
+S A$storage_manager$202 Def0066
+S A$storage_manager$103 Def0029
+S C$storage_manager.c$42$1$20 Def0045
+S A$storage_manager$230 Def0076
+S A$storage_manager$221 Def0070
+S A$storage_manager$113 Def002E
+S A$storage_manager$104 Def002A
+S C$storage_manager.c$51$1$21 Def0069
+S C$storage_manager.c$43$1$20 Def004A
+S A$storage_manager$240 Def007F
+S A$storage_manager$231 Def0077
+S A$storage_manager$105 Def002D
+S C$storage_manager.c$44$1$20 Def0057
+S A$storage_manager$241 Def0080
+S A$storage_manager$232 Def0078
+S A$storage_manager$133 Def0032
+S C$storage_manager.c$53$1$21 Def006C
+S C$storage_manager.c$45$1$20 Def0060
+S A$storage_manager$233 Def0079
+S A$storage_manager$215 Def0069
+S A$storage_manager$134 Def0033
+S C$storage_manager.c$54$1$21 Def0071
+S C$storage_manager.c$46$1$20 Def0066
+S C$storage_manager.c$21$1$18 Def0003
+S A$storage_manager$234 Def007A
+S A$storage_manager$225 Def0071
+S A$storage_manager$180 Def0055
+S A$storage_manager$135 Def0036
+S A$storage_manager$126 Def002F
+S C$storage_manager.c$55$1$21 Def007C
+S C$storage_manager.c$47$1$20 Def0066
+S C$storage_manager.c$30$1$19 Def0032
+S C$storage_manager.c$22$1$18 Def0008
+S A$storage_manager$235 Def007B
+S A$storage_manager$226 Def0072
+S A$storage_manager$172 Def004A
+S A$storage_manager$136 Def0038
+S C$storage_manager.c$56$1$21 Def0082
+S C$storage_manager.c$39$1$20 Def0042
+S G$engine_storage_manager_read$0$0 Def002F
+S C$storage_manager.c$23$1$18 Def0029
+S _engine_storage_manager_erase Def0069
+S A$storage_manager$245 Def0082
+S A$storage_manager$227 Def0073
+S A$storage_manager$173 Def004B
+S A$storage_manager$146 Def003F
+S A$storage_manager$137 Def003B
+S C$storage_manager.c$57$1$21 Def0088
+S C$storage_manager.c$49$1$20 Def0069
+S C$storage_manager.c$32$1$19 Def0032
+S C$storage_manager.c$24$1$18 Def002E
+S A$storage_manager$255 Def0088
+S A$storage_manager$246 Def0085
+S A$storage_manager$228 Def0074
+S A$storage_manager$219 Def006C
+S A$storage_manager$192 Def0060
+S A$storage_manager$174 Def004C
+S A$storage_manager$138 Def003E
+S C$storage_manager.c$58$1$21 Def0088
+S C$storage_manager.c$25$1$18 Def002E
+S A$storage_manager$247 Def0086
+S A$storage_manager$229 Def0075
+S A$storage_manager$193 Def0063
+S A$storage_manager$184 Def0057
+S A$storage_manager$175 Def004E
+S A$storage_manager$166 Def0045
+S C$storage_manager.c$34$1$19 Def003F
+S A$storage_manager$239 Def007C
+S A$storage_manager$194 Def0064
+S A$storage_manager$185 Def005A
+S A$storage_manager$176 Def004F
+S A$storage_manager$167 Def0046
+S C$storage_manager.c$35$1$19 Def003F
+S C$storage_manager.c$27$1$18 Def002F
+S C$storage_manager.c$18$1$18 Def0000
+S A$storage_manager$186 Def005B
+S A$storage_manager$177 Def0051
+S A$storage_manager$168 Def0049
+S A$storage_manager$159 Def0042
+S G$engine_storage_manager_available$0$0 Def0000
+S A$storage_manager$187 Def005C
+S A$storage_manager$178 Def0052
+S C$storage_manager.c$37$1$19 Def0042
+S A$storage_manager$188 Def005F
+S A$storage_manager$179 Def0054
+S C$storage_manager.c$29$1$19 Def002F
+S C$storage_manager.c$16$0$0 Def0000
+S XG$engine_storage_manager_erase$0$0 Def0088
+S _engine_storage_manager_read Def002F
+S A$storage_manager$70 Def0004
+S A$storage_manager$80 Def000D
+S A$storage_manager$71 Def0007
+S A$storage_manager$90 Def001C
+S A$storage_manager$81 Def000E
+S G$engine_storage_manager_write$0$0 Def0042
+S A$storage_manager$91 Def001E
+S A$storage_manager$82 Def000F
+S A$storage_manager$92 Def001F
+S A$storage_manager$83 Def0010
+S A$storage_manager$65 Def0000
+S _engine_storage_manager_available Def0000
+S A$storage_manager$93 Def0021
+S A$storage_manager$84 Def0012
+S A$storage_manager$75 Def0008
+S A$storage_manager$94 Def0023
+S A$storage_manager$85 Def0014
+S A$storage_manager$76 Def0009
+S A$storage_manager$95 Def0025
+S A$storage_manager$86 Def0015
+S A$storage_manager$77 Def000A
+S A$storage_manager$87 Def0017
+S A$storage_manager$78 Def000B
+S A$storage_manager$69 Def0003
+S A$storage_manager$97 Def0027
+S A$storage_manager$88 Def0019
+S A$storage_manager$79 Def000C
+S A$storage_manager$89 Def001A
+S A$storage_manager$99 Def0028
+S XG$engine_storage_manager_read$0$0 Def003F
+S _engine_storage_manager_write Def0042
+S XG$engine_storage_manager_available$0$0 Def002E
+S XG$engine_storage_manager_write$0$0 Def0066
+A _DATA size 6 flags 0 addr 0
+S G$global_savegame_object$0$0 Def0000
+S _global_savegame_object Def0000
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 CD 00 00 E5 CD 00 00 E1 4E 23 46 23 5E 23
+R 00 00 00 00 02 03 01 00 02 07 04 00
+T 0E 00 56 79 D6 04 20 13 78 D6 B0 20 0E 7B D6 E0
+R 00 00 00 00
+T 1C 00 20 09 7A D6 AC 20 04 3E 01 18 01
+R 00 00 00 00
+T 27 00
+R 00 00 00 00
+T 27 00 AF
+R 00 00 00 00
+T 28 00
+R 00 00 00 00
+T 28 00 6F E5 CD 00 00 E1 C9
+R 00 00 00 00 02 05 02 00
+T 2F 00
+R 00 00 00 00
+T 2F 00 CD 00 00 E5 CD 00 00 FD E1 FD 4E 04 21
+R 00 00 00 00 02 03 01 00 02 07 04 00
+T 3C 00 00 00 71 C3 00 00
+R 00 00 00 00 02 02 00 00 02 06 02 00
+T 42 00
+R 00 00 00 00
+T 42 00 CD 00 00 E5 CD 00 00 C1 69 60 36 04 23 36
+R 00 00 00 00 02 03 01 00 02 07 04 00
+T 50 00 B0 23 36 E0 23 36 AC 21 04 00 09 EB 3A
+R 00 00 00 00
+T 5D 00 00 00 12 21 05 00 09 36 FE C3 00 00
+R 00 00 00 00 02 02 00 00 02 0C 02 00
+T 69 00
+R 00 00 00 00
+T 69 00 CD 00 00 E5 CD 00 00 C1 69 60 AF 77 23 77
+R 00 00 00 00 02 03 01 00 02 07 04 00
+T 77 00 23 AF 77 23 77 21 04 00 09 36 00 21 05 00
+R 00 00 00 00
+T 85 00 09 36 FE C3 00 00
+R 00 00 00 00 02 06 02 00

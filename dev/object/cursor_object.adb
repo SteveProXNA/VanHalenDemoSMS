@@ -1,0 +1,17 @@
+M:cursor_object
+T:Fcursor_object$tag_struct_cursor_object[({0}S:S$cursor_index_x$0$0({1}SC:U),Z,0,0)({1}S:S$cursor_index_y$0$0({1}SC:U),Z,0,0)({2}S:S$cursor_value_x$0$0({1}SC:U),Z,0,0)({3}S:S$cursor_value_y$0$0({1}SC:U),Z,0,0)]
+S:G$cursor_album$0$0({24}DA12d,DG,SC:U),E,0,0
+S:G$cursor_gridX$0$0({4}DA4d,SC:U),D,0,0
+S:G$cursor_gridY$0$0({3}DA3d,SC:U),D,0,0
+S:Fcursor_object$__str_0$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_1$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_2$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_3$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_4$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_5$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_6$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_7$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_8$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_9$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_10$0$0({5}DA5d,SC:S),D,0,0
+S:Fcursor_object$__str_11$0$0({5}DA5d,SC:S),D,0,0

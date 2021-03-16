@@ -1,0 +1,44 @@
+XL2
+H 9 areas 7 global symbols
+M psg
+O -mz80
+S .__.ABS. Def0000
+A _CODE size 66 flags 0 addr 0
+S G$sfx_right_psg$0$0 Def0023
+S _sfx_right_psg Def0023
+S G$sfx_wrong_psg$0$0 Def0043
+S _sfx_wrong_psg Def0043
+S G$sfx_cheat_psg$0$0 Def0000
+S _sfx_cheat_psg Def0000
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 00 00
+T 00 00 CE 4B D0 3B D1 38 CF 47 08 02 00 C7 49 0A
+R 00 00 00 00
+T 0E 00 02 00 09 02 00 45 D0 3B D1 3B D2 3A D3 39
+R 00 00 00 00
+T 1C 00 D4 39 C3 55 DF 3C 00
+R 00 00 00 00
+T 23 00
+R 00 00 00 00
+T 23 00 C5 4D D0 3B CE 48 3B C7 44 D5 3A CA 46 3B
+R 00 00 00 00
+T 31 00 C5 4D DA 3A 09 04 00 DB 3B CA 46 DD 3A C0
+R 00 00 00 00
+T 3F 00 40 DF 38 00
+R 00 00 00 00
+T 43 00
+R 00 00 00 00
+T 43 00 C5 4D D0 3B C0 4A 3B C7 49 3B CE 48 D5 3B
+R 00 00 00 00
+T 51 00 C5 4D 3B C0 4A 3B C7 49 DA 3B CE 48 3B C0
+R 00 00 00 00
+T 5F 00 49 3B C0 40 DF 3B 00
+R 00 00 00 00

@@ -1,0 +1,103 @@
+XL2
+H 9 areas 14 global symbols
+M cursor_object
+O -mz80
+S .__.ABS. Def0000
+A _CODE size 43 flags 0 addr 0
+S G$cursor_gridX$0$0 Def0000
+S G$cursor_gridY$0$0 Def0004
+S _cursor_gridX Def0000
+S _cursor_gridY Def0004
+S Fcursor_object$__str_10$0$0 Def0039
+S Fcursor_object$__str_11$0$0 Def003E
+S Fcursor_object$__str_0$0$0 Def0007
+S Fcursor_object$__str_1$0$0 Def000C
+S Fcursor_object$__str_2$0$0 Def0011
+S Fcursor_object$__str_3$0$0 Def0016
+S Fcursor_object$__str_4$0$0 Def001B
+S Fcursor_object$__str_5$0$0 Def0020
+S Fcursor_object$__str_6$0$0 Def0025
+S Fcursor_object$__str_7$0$0 Def002A
+S Fcursor_object$__str_8$0$0 Def002F
+S Fcursor_object$__str_9$0$0 Def0034
+A _DATA size 0 flags 0 addr 0
+A _INITIALIZED size 18 flags 0 addr 0
+S G$cursor_album$0$0 Def0000
+S _cursor_album Def0000
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 18 flags 0 addr 0
+S Fcursor_object$__xinit_cursor_album$0$0 Def0000
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 02 00
+T 00 00
+R 00 00 00 00
+T 00 00 04 0B 12 19
+R 00 00 00 00
+T 04 00
+R 00 00 00 00
+T 04 00 10 13 16
+R 00 00 00 00
+T 07 00
+R 00 00 00 00
+T 07 00 31 39 37 38 00
+R 00 00 00 00
+T 0C 00
+R 00 00 00 00
+T 0C 00 31 39 37 39 00
+R 00 00 00 00
+T 11 00
+R 00 00 00 00
+T 11 00 31 39 38 30 00
+R 00 00 00 00
+T 16 00
+R 00 00 00 00
+T 16 00 31 39 38 31 00
+R 00 00 00 00
+T 1B 00
+R 00 00 00 00
+T 1B 00 31 39 38 32 00
+R 00 00 00 00
+T 20 00
+R 00 00 00 00
+T 20 00 31 39 38 34 00
+R 00 00 00 00
+T 25 00
+R 00 00 00 00
+T 25 00 31 39 38 36 00
+R 00 00 00 00
+T 2A 00
+R 00 00 00 00
+T 2A 00 31 39 38 38 00
+R 00 00 00 00
+T 2F 00
+R 00 00 00 00
+T 2F 00 31 39 39 31 00
+R 00 00 00 00
+T 34 00
+R 00 00 00 00
+T 34 00 31 39 39 35 00
+R 00 00 00 00
+T 39 00
+R 00 00 00 00
+T 39 00 31 39 39 38 00
+R 00 00 00 00
+T 3E 00
+R 00 00 00 00
+T 3E 00 32 30 31 32 00
+R 00 00 00 00
+T 00 00
+R 00 00 07 00
+T 00 00 07 00 0C 00 11 00
+R 00 00 07 00 00 02 00 00 00 04 00 00 00 06 00 00
+T 06 00 16 00 1B 00 20 00
+R 00 00 07 00 00 02 00 00 00 04 00 00 00 06 00 00
+T 0C 00 25 00 2A 00 2F 00
+R 00 00 07 00 00 02 00 00 00 04 00 00 00 06 00 00
+T 12 00 34 00 39 00 3E 00
+R 00 00 07 00 00 02 00 00 00 04 00 00 00 06 00 00

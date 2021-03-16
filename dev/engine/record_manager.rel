@@ -1,0 +1,180 @@
+;!FILE record_manager.asm
+XL2
+H 9 areas 7E global symbols
+M record_manager
+O -mz80
+S _devkit_SMS_loadSTMcompressedTileMap Ref0000
+S _devkit_SMS_loadBGPalette Ref0000
+S _record_tiles_data Ref0000
+S _devkit_SMS_loadPSGaidencompressedTiles Ref0000
+S _record_tiles_bank Ref0000
+S .__.ABS. Def0000
+S _record_tilemap_data Ref0000
+S _record_palette_data Ref0000
+S _devkit_SMS_mapROMBank Ref0000
+A _CODE size 81 flags 0 addr 0
+S _engine_record_manager_init Def0000
+S _engine_record_manager_decrement Def0064
+S G$engine_record_manager_increment$0$0 Def0073
+S XG$engine_record_manager_init$0$0 Def000D
+S XG$engine_record_manager_decrement$0$0 Def0072
+S _engine_record_manager_increment Def0073
+S C$record_manager.c$20$1$20 Def0017
+S A$record_manager$200 Def0072
+S A$record_manager$110 Def0027
+S C$record_manager.c$31$1$20 Def0058
+S C$record_manager.c$22$1$20 Def001A
+S A$record_manager$120 Def0030
+S A$record_manager$111 Def0028
+S A$record_manager$102 Def001A
+S C$record_manager.c$32$1$20 Def0063
+S C$record_manager.c$23$1$20 Def002A
+S A$record_manager$130 Def003C
+S A$record_manager$112 Def0029
+S A$record_manager$103 Def001D
+S C$record_manager.c$24$1$20 Def0031
+S A$record_manager$230 Def007E
+S A$record_manager$140 Def0045
+S A$record_manager$104 Def001E
+S C$record_manager.c$34$1$20 Def0064
+S A$record_manager$231 Def007F
+S A$record_manager$213 Def0073
+S A$record_manager$150 Def0057
+S A$record_manager$141 Def0046
+S A$record_manager$105 Def0020
+S C$record_manager.c$26$1$20 Def003D
+S A$record_manager$223 Def007B
+S A$record_manager$142 Def0049
+S A$record_manager$124 Def0031
+S A$record_manager$106 Def0021
+S A$record_manager$224 Def007C
+S A$record_manager$143 Def004A
+S A$record_manager$134 Def003D
+S A$record_manager$125 Def0034
+S A$record_manager$116 Def002A
+S A$record_manager$107 Def0022
+S C$record_manager.c$45$1$21 Def0072
+S C$record_manager.c$36$1$21 Def0064
+S C$record_manager.c$19$1$20 Def0017
+S A$record_manager$225 Def007D
+S A$record_manager$144 Def004B
+S A$record_manager$135 Def003E
+S A$record_manager$126 Def0036
+S A$record_manager$117 Def002D
+S A$record_manager$108 Def0023
+S C$record_manager.c$46$1$21 Def0073
+S C$record_manager.c$43$2$23 Def006F
+S C$record_manager.c$37$1$21 Def0067
+S A$record_manager$217 Def0076
+S A$record_manager$181 Def0067
+S A$record_manager$154 Def0058
+S A$record_manager$145 Def004E
+S A$record_manager$136 Def003F
+S A$record_manager$127 Def0037
+S A$record_manager$118 Def002E
+S A$record_manager$109 Def0026
+S C$record_manager.c$51$2$25 Def007B
+S A$record_manager$236 Def0080
+S A$record_manager$218 Def0077
+S A$record_manager$182 Def0068
+S A$record_manager$164 Def0063
+S A$record_manager$155 Def005B
+S A$record_manager$146 Def004F
+S A$record_manager$137 Def0040
+S A$record_manager$128 Def0039
+S A$record_manager$119 Def002F
+S XG$engine_record_manager_increment$0$0 Def0080
+S C$record_manager.c$14$1$19 Def0000
+S A$record_manager$219 Def0079
+S A$record_manager$183 Def0069
+S A$record_manager$156 Def005C
+S A$record_manager$147 Def0052
+S A$record_manager$138 Def0041
+S A$record_manager$129 Def003B
+S C$record_manager.c$15$1$19 Def0000
+S A$record_manager$157 Def005F
+S A$record_manager$148 Def0053
+S A$record_manager$139 Def0044
+S C$record_manager.c$39$2$22 Def006B
+S C$record_manager.c$16$1$19 Def000D
+S A$record_manager$194 Def006F
+S A$record_manager$158 Def0060
+S A$record_manager$149 Def0056
+S C$record_manager.c$57$1$24 Def0080
+S C$record_manager.c$48$1$24 Def0073
+S C$record_manager.c$17$1$19 Def000E
+S G$engine_record_manager_load$0$0 Def000E
+S C$record_manager.c$12$0$0 Def0000
+S A$record_manager$195 Def0071
+S A$record_manager$177 Def0064
+S A$record_manager$159 Def0061
+S C$record_manager.c$55$2$26 Def007E
+S C$record_manager.c$49$1$24 Def0076
+S A$record_manager$187 Def006B
+S A$record_manager$188 Def006D
+S A$record_manager$189 Def006E
+S A$record_manager$70 Def0003
+S A$record_manager$71 Def0007
+S A$record_manager$90 Def0014
+S A$record_manager$72 Def0009
+S A$record_manager$91 Def0016
+S A$record_manager$73 Def000C
+S _engine_record_manager_load Def000E
+S A$record_manager$78 Def000D
+S A$record_manager$69 Def0000
+S A$record_manager$88 Def000E
+S A$record_manager$98 Def0017
+S A$record_manager$89 Def0010
+S G$engine_record_manager_init$0$0 Def0000
+S G$engine_record_manager_decrement$0$0 Def0064
+S XG$engine_record_manager_load$0$0 Def0063
+A _DATA size 1 flags 0 addr 0
+S _global_record_object Def0000
+S G$global_record_object$0$0 Def0000
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 21 00 00 FD 21 02 00 FD 39 FD 7E 00 77 C9
+R 00 00 00 00 00 03 01 00
+T 0E 00
+R 00 00 00 00
+T 0E 00 DD E5 DD 21 00 00 DD 39 3B 3A 00 00 DD 77
+R 00 00 00 00 00 0C 01 00
+T 1C 00 FF 6F 26 00 29 4D 44 21 00 00 09 5E 23 56
+R 00 00 00 00 02 0A 02 00
+T 2A 00 21 00 00 09 4E 23 46 DD 7E FF C6 00 00 6F
+R 00 00 00 00 02 03 06 00 0B 0D 04 00
+T 37 00 3E 00 CE 00 00 67 66 C5 D5 E5 33 CD 00 00
+R 00 00 00 00 8B 05 04 00 02 0E 08 00
+T 44 00 33 D1 21 00 00 E5 D5 CD 00 00 F1 21 00 00
+R 00 00 00 00 02 0A 03 00
+T 52 00 E3 CD 00 00 F1 F1 2A 00 00 E5 CD 00 00 F1
+R 00 00 00 00 02 04 00 00 02 09 07 00 02 0D 01 00
+T 60 00 33 DD E1 C9
+R 00 00 00 00
+T 64 00
+R 00 00 00 00
+T 64 00 01 00 00 0A B7 20 04 3E 0B 02 C9
+R 00 00 00 00 00 03 01 00
+T 6F 00
+R 00 00 00 00
+T 6F 00 C6 FF 02 C9
+R 00 00 00 00
+T 73 00
+R 00 00 00 00
+T 73 00 01 00 00 0A FE 0B 20 03 AF 02 C9
+R 00 00 00 00 00 03 01 00
+T 7E 00
+R 00 00 00 00
+T 7E 00 3C 02 C9
+R 00 00 00 00

@@ -1,0 +1,63 @@
+;!FILE scroll_manager.asm
+XL2
+H 9 areas 23 global symbols
+M scroll_manager
+O -mz80
+S .__.ABS. Def0000
+S _devkit_SMS_setBGScrollY Ref0000
+A _CODE size 1D flags 0 addr 0
+S A$scroll_manager$95 Def0012
+S A$scroll_manager$96 Def0016
+S A$scroll_manager$78 Def000E
+S A$scroll_manager$69 Def0007
+S A$scroll_manager$97 Def0018
+S A$scroll_manager$98 Def001B
+S C$scroll_manager.c$8$0$0 Def0000
+S XG$engine_scroll_manager_load$0$0 Def001C
+S XG$engine_scroll_manager_reset$0$0 Def000E
+S A$scroll_manager$103 Def001C
+S C$scroll_manager.c$16$1$20 Def000F
+S C$scroll_manager.c$17$1$20 Def000F
+S C$scroll_manager.c$10$1$18 Def0000
+S C$scroll_manager.c$18$1$20 Def001C
+S C$scroll_manager.c$11$1$18 Def0007
+S C$scroll_manager.c$12$1$18 Def000E
+S C$scroll_manager.c$14$1$18 Def000F
+S G$engine_scroll_manager_load$0$0 Def000F
+S G$engine_scroll_manager_reset$0$0 Def0000
+S A$scroll_manager$70 Def0008
+S A$scroll_manager$61 Def0000
+S A$scroll_manager$71 Def0009
+S A$scroll_manager$62 Def0001
+S A$scroll_manager$72 Def000A
+S A$scroll_manager$63 Def0002
+S A$scroll_manager$73 Def000D
+S A$scroll_manager$64 Def0003
+S _engine_scroll_manager_load Def000F
+S A$scroll_manager$65 Def0006
+S A$scroll_manager$94 Def000F
+S _engine_scroll_manager_reset Def0000
+A _DATA size 1 flags 0 addr 0
+S G$global_scroll_object$0$0 Def0000
+S _global_scroll_object Def0000
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 AF F5 33 CD 0F 00 33 AF F5 33 CD 00 00 33
+R 00 00 00 00 00 06 00 00 02 0D 01 00
+T 0E 00 C9
+R 00 00 00 00
+T 0F 00
+R 00 00 00 00
+T 0F 00 21 00 00 FD 21 02 00 FD 39 FD 7E 00 77 C9
+R 00 00 00 00 00 03 01 00

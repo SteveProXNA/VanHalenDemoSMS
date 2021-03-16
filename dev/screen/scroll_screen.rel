@@ -1,0 +1,136 @@
+;!FILE scroll_screen.asm
+XL2
+H 9 areas 52 global symbols
+M scroll_screen
+O -mz80
+S .__.ABS. Def0000
+S _engine_input_manager_hold Ref0000
+S _devkit_SMS_setBGScrollY Ref0000
+S _engine_scroll_manager_load Ref0000
+A _CODE size 61 flags 0 addr 0
+S G$screen_scroll_screen_update$0$0 Def0006
+S A$scroll_screen$100 Def0021
+S A$scroll_screen$110 Def002D
+S A$scroll_screen$101 Def0022
+S A$scroll_screen$120 Def0036
+S A$scroll_screen$111 Def002E
+S A$scroll_screen$102 Def0025
+S A$scroll_screen$130 Def0044
+S A$scroll_screen$140 Def004C
+S A$scroll_screen$131 Def0045
+S A$scroll_screen$141 Def004F
+S A$scroll_screen$160 Def005D
+S A$scroll_screen$151 Def0059
+S A$scroll_screen$142 Def0050
+S A$scroll_screen$124 Def0037
+S A$scroll_screen$115 Def002F
+S A$scroll_screen$106 Def0026
+S _screen_scroll_screen_update Def0006
+S A$scroll_screen$143 Def0052
+S A$scroll_screen$125 Def0038
+S A$scroll_screen$116 Def0032
+S A$scroll_screen$107 Def0028
+S A$scroll_screen$162 Def005F
+S A$scroll_screen$144 Def0053
+S A$scroll_screen$126 Def0039
+S A$scroll_screen$117 Def0033
+S A$scroll_screen$108 Def0029
+S C$scroll_screen.c$30$2$27 Def0047
+S C$scroll_screen.c$16$1$24 Def0000
+S A$scroll_screen$145 Def0054
+S A$scroll_screen$136 Def0047
+S A$scroll_screen$127 Def003B
+S A$scroll_screen$118 Def0034
+S A$scroll_screen$109 Def002A
+S C$scroll_screen.c$33$1$26 Def002F
+S C$scroll_screen.c$24$1$26 Def0007
+S C$scroll_screen.c$17$1$24 Def0005
+S A$scroll_screen$155 Def005B
+S A$scroll_screen$146 Def0057
+S A$scroll_screen$137 Def0048
+S A$scroll_screen$128 Def003F
+S A$scroll_screen$119 Def0035
+S C$scroll_screen.c$25$1$26 Def0016
+S A$scroll_screen$147 Def0058
+S A$scroll_screen$138 Def004A
+S A$scroll_screen$129 Def0041
+S C$scroll_screen.c$33$2$27 Def0059
+S C$scroll_screen.c$19$1$24 Def0006
+S A$scroll_screen$139 Def004B
+S C$scroll_screen.c$34$2$27 Def005B
+S C$scroll_screen.c$27$1$26 Def0026
+S A$scroll_screen$167 Def0060
+S C$scroll_screen.c$37$1$26 Def005D
+S C$scroll_screen.c$28$1$26 Def0037
+S C$scroll_screen.c$38$1$26 Def0060
+S C$scroll_screen.c$14$0$0 Def0000
+S XG$screen_scroll_screen_update$0$0 Def0060
+S A$scroll_screen$62 Def0000
+S G$screen_scroll_screen_load$0$0 Def0000
+S A$scroll_screen$90 Def0013
+S A$scroll_screen$63 Def0003
+S A$scroll_screen$91 Def0014
+S A$scroll_screen$82 Def0007
+S A$scroll_screen$92 Def0015
+S A$scroll_screen$83 Def000A
+S A$scroll_screen$84 Def000C
+S A$scroll_screen$85 Def000E
+S A$scroll_screen$86 Def0010
+S A$scroll_screen$68 Def0005
+S A$scroll_screen$96 Def0016
+S A$scroll_screen$78 Def0006
+S A$scroll_screen$97 Def001A
+S A$scroll_screen$88 Def0012
+S A$scroll_screen$98 Def001D
+S A$scroll_screen$99 Def0020
+S _screen_scroll_screen_load Def0000
+S XG$screen_scroll_screen_load$0$0 Def0005
+A _DATA size 1 flags 0 addr 0
+S Fscroll_screen$offset$0$0 Def0000
+A _INITIALIZED size 0 flags 0 addr 0
+A _DABS size 0 flags 8 addr 0
+A _HOME size 0 flags 0 addr 0
+A _GSINIT size 0 flags 0 addr 0
+A _GSFINAL size 0 flags 0 addr 0
+A _INITIALIZER size 0 flags 0 addr 0
+A _CABS size 0 flags 8 addr 0
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 01 00
+T 00 00
+R 00 00 00 00
+T 00 00 21 00 00 36 00 C9
+R 00 00 00 00 00 03 01 00
+T 06 00
+R 00 00 00 00
+T 06 00 3B 3A 00 00 D6 20 20 04 3E 01 18 01
+R 00 00 00 00 00 04 01 00
+T 12 00
+R 00 00 00 00
+T 12 00 AF
+R 00 00 00 00
+T 13 00
+R 00 00 00 00
+T 13 00 33 F5 33 FD 21 00 00 FD 46 00 FD 34 00 C5
+R 00 00 00 00 00 07 01 00
+T 21 00 33 CD 00 00 33 3E 10 F5 33 CD 00 00 33 4D
+R 00 00 00 00 02 04 02 00 02 0C 01 00
+T 2F 00 21 03 00 39 7E 23 66 6F 79 B7 20 0C FD 21
+R 00 00 00 00
+T 3D 00 00 00 FD 39 FD 7E 00 B7 28 16
+R 00 00 00 00
+T 47 00
+R 00 00 00 00
+T 47 00 E5 3E 04 F5 33 CD 00 00 33 3E 20 F5 33 CD
+R 00 00 00 00 02 08 03 00
+T 55 00 00 00 33 E1 36 04 18 02
+R 00 00 00 00 02 02 02 00
+T 5D 00
+R 00 00 00 00
+T 5D 00 36 03
+R 00 00 00 00
+T 5F 00
+R 00 00 00 00
+T 5F 00 33 C9
+R 00 00 00 00
