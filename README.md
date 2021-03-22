@@ -43,7 +43,7 @@ Extra special thanks to: sverx for [devkitSMS](https://github.com/sverx/devkitSM
 Finally, thanks goes to: Ville Helin, Maxim, hang-on, Aypok, STIR_FC, Grz-, Bock, gvx32, efry
 
 ###### DOCUMENTATION
-Links to documentation on games written for the Sega Master System using devkitSMS:
+Links to documentation on Z80 Programming Setup + Samples for the Sega Master System:
 https://steveproxna.blogspot.com/2021/02/z80-programming-setup.html
 <br />
 https://steveproxna.blogspot.com/2021/03/z80-programming-sample.html
