@@ -13,6 +13,8 @@ For completeness, source code was also written in C using the devkitSMS to conne
 Press button 1 to advance through the all screens and press button 2 to go back.
 <br />
 Move joystick Up / Down / Left / Right to select year of record cover to display.
+<br />
+After year select move joystick Left / Right to rotate record cover back / forward.
 
 ###### TOOLS
 - Programming:	devkitSMS
