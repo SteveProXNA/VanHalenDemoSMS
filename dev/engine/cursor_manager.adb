@@ -6,9 +6,9 @@ F:G$engine_cursor_manager_load$0$0({2}DF,SV:S),Z,0,2,0,0,0
 S:Lcursor_manager.engine_cursor_manager_load$offset$1$24({1}SC:U),B,1,4
 S:Lcursor_manager.engine_cursor_manager_load$idx$1$25({1}SC:U),R,0,0,[e]
 S:Lcursor_manager.engine_cursor_manager_load$fx$1$25({1}SC:U),R,0,0,[c]
-S:Lcursor_manager.engine_cursor_manager_load$fy$1$25({1}SC:U),B,1,-3
+S:Lcursor_manager.engine_cursor_manager_load$fy$1$25({1}SC:U),B,1,-4
 S:Lcursor_manager.engine_cursor_manager_load$vx$1$25({1}SC:U),R,0,0,[b]
-S:Lcursor_manager.engine_cursor_manager_load$vy$1$25({1}SC:U),B,1,-4
+S:Lcursor_manager.engine_cursor_manager_load$vy$1$25({1}SC:U),B,1,-3
 S:Lcursor_manager.engine_cursor_manager_load$text$1$25({2}DG,SC:U),R,0,0,[e,d]
 S:Lcursor_manager.engine_cursor_manager_load$sloc0$1$0({2}DC,SC:U),B,1,-2
 F:G$engine_cursor_manager_save$0$0({2}DF,SC:U),Z,0,0,0,0,0
@@ -19,9 +19,9 @@ S:Lcursor_manager.engine_cursor_manager_draw$x$1$31({1}SC:U),R,0,0,[c]
 S:Lcursor_manager.engine_cursor_manager_draw$y$1$31({1}SC:U),R,0,0,[b]
 S:Lcursor_manager.engine_cursor_manager_draw$tile$1$31({2}SI:U),R,0,0,[]
 S:Lcursor_manager.engine_cursor_manager_draw$sloc0$1$0({1}SC:U),B,1,-3
-S:Lcursor_manager.engine_cursor_manager_draw$sloc1$1$0({1}SC:U),B,1,-2
-S:Lcursor_manager.engine_cursor_manager_draw$sloc2$1$0({1}SC:U),B,1,-4
-S:Lcursor_manager.engine_cursor_manager_draw$sloc3$1$0({1}SC:U),B,1,-1
+S:Lcursor_manager.engine_cursor_manager_draw$sloc1$1$0({1}SC:U),B,1,-4
+S:Lcursor_manager.engine_cursor_manager_draw$sloc2$1$0({1}SC:U),B,1,-1
+S:Lcursor_manager.engine_cursor_manager_draw$sloc3$1$0({1}SC:U),B,1,-2
 F:G$engine_cursor_manager_decX$0$0({2}DF,SV:S),Z,0,0,0,0,0
 S:Lcursor_manager.engine_cursor_manager_decX$co$1$32({2}DG,STtag_struct_cursor_object:S),R,0,0,[c,b]
 F:G$engine_cursor_manager_incX$0$0({2}DF,SV:S),Z,0,0,0,0,0

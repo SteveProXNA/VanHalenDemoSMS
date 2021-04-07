@@ -1,84 +1,38 @@
 ;!FILE test_screen.asm
 XL2
-H 9 areas 4B global symbols
+H 9 areas 1D global symbols
 M test_screen
 O -mz80
-S _global_record_object Ref0000
-S _devkit_SMS_displayOn Ref0000
-S _global_hack_object Ref0000
+S _engine_font_manager_draw_text Ref0000
 S .__.ABS. Def0000
-S _engine_input_manager_hold Ref0000
-S _engine_riff_manager_init Ref0000
-S _devkit_SMS_displayOff Ref0000
-S _engine_asm_manager_clear_VRAM Ref0000
-S _engine_riff_manager_play Ref0000
-S _engine_font_manager_draw_data Ref0000
-S _engine_record_manager_load Ref0000
-A _CODE size 41 flags 0 addr 0
-S A$test_screen$161 Def003B
-S A$test_screen$134 Def0031
-S A$test_screen$125 Def002A
-S A$test_screen$116 Def0021
-S A$test_screen$107 Def0018
-S A$test_screen$153 Def0035
-S A$test_screen$135 Def0032
-S A$test_screen$126 Def002D
-S A$test_screen$117 Def0022
-S A$test_screen$108 Def001A
-S C$test_screen.c$24$1$43 Def0000
-S A$test_screen$109 Def001B
-S C$test_screen.c$34$1$43 Def0015
-S C$test_screen.c$42$1$45 Def0018
-S C$test_screen.c$36$1$43 Def0018
-S C$test_screen.c$27$1$43 Def0005
-S A$test_screen$157 Def0038
-S C$test_screen.c$60$1$47 Def003B
-S C$test_screen.c$53$1$45 Def002E
-S C$test_screen.c$44$1$45 Def0020
-S C$test_screen.c$61$1$47 Def003E
-S C$test_screen.c$54$1$45 Def0034
-S XFtest_screen$load_record$0$0 Def003E
-S C$test_screen.c$62$1$47 Def003E
-S A$test_screen$169 Def003E
-S C$test_screen.c$56$1$45 Def0035
-S C$test_screen.c$38$1$45 Def0018
-S C$test_screen.c$47$2$46 Def0024
-S XG$screen_test_screen_update$0$0 Def0034
-S C$test_screen.c$58$1$47 Def0035
-S C$test_screen.c$18$0$0 Def0000
-S C$test_screen.c$59$1$47 Def0038
-S A$test_screen$70 Def0000
-S A$test_screen$80 Def000F
-S A$test_screen$71 Def0003
+A _CODE size 24 flags 0 addr 0
+S C$test_screen.c$10$1$5 Def001D
+S XG$screen_test_screen_update$0$0 Def0023
+S A$test_screen$60 Def0007
+S C$test_screen.c$12$1$7 Def001D
+S A$test_screen$61 Def0008
+S C$test_screen.c$13$1$7 Def0023
+S A$test_screen$62 Def000B
 S G$screen_test_screen_load$0$0 Def0000
-S A$test_screen$81 Def0010
-S A$test_screen$91 Def0015
-S A$test_screen$82 Def0013
-S A$test_screen$83 Def0014
-S A$test_screen$75 Def0005
-S A$test_screen$76 Def0008
-S A$test_screen$77 Def0009
-S A$test_screen$78 Def000B
-S A$test_screen$79 Def000E
+S A$test_screen$63 Def000C
+S A$test_screen$57 Def0000
+S A$test_screen$94 Def0023
+S A$test_screen$85 Def001D
+S A$test_screen$58 Def0003
+S A$test_screen$86 Def001E
+S A$test_screen$68 Def000D
+S A$test_screen$59 Def0004
+S A$test_screen$87 Def001F
+S Ftest_screen$__str_0$0$0 Def000E
+S A$test_screen$88 Def0020
+S C$test_screen.c$5$0$0 Def0000
+S A$test_screen$89 Def0021
 S _screen_test_screen_load Def0000
-S XG$screen_test_screen_load$0$0 Def0015
-S Ftest_screen$load_record$0$0 Def0035
-S G$screen_test_screen_update$0$0 Def0018
-S A$test_screen$110 Def001C
-S A$test_screen$111 Def001F
-S A$test_screen$121 Def0024
-S A$test_screen$140 Def0034
-S A$test_screen$131 Def002E
-S A$test_screen$122 Def0027
-S A$test_screen$132 Def002F
-S A$test_screen$123 Def0028
-S C$test_screen.c$30$1$43 Def0015
-S C$test_screen.c$21$1$43 Def0000
-S A$test_screen$133 Def0030
-S A$test_screen$124 Def0029
-S A$test_screen$115 Def0020
-S C$test_screen.c$22$1$43 Def0000
-S _screen_test_screen_update Def0018
+S C$test_screen.c$7$1$5 Def0000
+S C$test_screen.c$8$1$5 Def000D
+S XG$screen_test_screen_load$0$0 Def000D
+S G$screen_test_screen_update$0$0 Def001D
+S _screen_test_screen_update Def001D
 A _DATA size 0 flags 0 addr 0
 A _INITIALIZED size 0 flags 0 addr 0
 A _DABS size 0 flags 8 addr 0
@@ -89,23 +43,15 @@ A _INITIALIZER size 0 flags 0 addr 0
 A _CABS size 0 flags 8 addr 0
 T 00 00
 R 00 00 00 00
-T 00 00 21 00 00 36 0B 21 00 00 4E 06 00 21 0A 05
-R 00 00 00 00 02 03 00 00 02 08 02 00
-T 0E 00 E5 C5 CD 00 00 F1 F1 C3 00 00
-R 00 00 00 00 02 05 09 00 02 0A 05 00
-T 18 00
+T 00 00 21 0A 05 E5 21 0E 00 E5 CD 00 00 F1 F1 C9
+R 00 00 00 00 00 07 00 00 02 0B 00 00
+T 0E 00
 R 00 00 00 00
-T 18 00 3E 10 F5 33 CD 00 00 33 7D B7 28 0A 21
-R 00 00 00 00 02 07 04 00
-T 25 00 00 00 46 C5 33 CD 00 00 33
-R 00 00 00 00 02 02 00 00 02 08 08 00
-T 2E 00
+T 0E 00 54 45 53 54 20 53 43 52 45 45 4E 2E 2E 2E
 R 00 00 00 00
-T 2E 00 C1 E1 E5 C5 36 06 C9
+T 1C 00 00
 R 00 00 00 00
-T 35 00
+T 1D 00
 R 00 00 00 00
-T 35 00 CD 00 00 CD 00 00 CD 00 00 C3
-R 00 00 00 00 02 03 06 00 02 06 07 00 02 09 0A 00
-T 3F 00 00 00
-R 00 00 00 00 02 02 01 00
+T 1D 00 C1 E1 E5 C5 36 06 C9
+R 00 00 00 00
