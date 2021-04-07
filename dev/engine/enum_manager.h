@@ -9,6 +9,7 @@ typedef enum tag_enum_screen_type
 	screen_type_scroll = 3,
 	screen_type_select = 4,
 	screen_type_record = 5,
+	screen_type_test = 6,
 
 } enum_screen_type;
 

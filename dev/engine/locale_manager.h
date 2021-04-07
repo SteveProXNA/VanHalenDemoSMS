@@ -1,7 +1,7 @@
 #ifndef _LOCALE_MANAGER_H_
 #define _LOCALE_MANAGER_H_
 
-#define LOCALE_BUILD_VALUE		"V1.0"
+#define LOCALE_BUILD_VALUE		"V2.0"
 #define LOCALE_EDDIE_VALUE		"5150"
 #define LOCALE_BLANK_CLEAR		"           "
 #define LOCALE_PRESS_START		"PRESS START"

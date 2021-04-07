@@ -1,0 +1,9 @@
+M:hack_manager
+F:G$engine_hack_manager_init$0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:Lhack_manager.engine_hack_manager_init$ho$1$1({2}DG,STtag_struct_hack_object:S),R,0,0,[]
+F:G$engine_hack_manager_load$0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:Lhack_manager.engine_hack_manager_load$ho$1$2({2}DG,STtag_struct_hack_object:S),R,0,0,[c,b]
+F:G$engine_hack_manager_invert$0$0({2}DF,SV:S),Z,0,0,0,0,0
+S:Lhack_manager.engine_hack_manager_invert$ho$1$3({2}DG,STtag_struct_hack_object:S),R,0,0,[c,b]
+T:Fhack_manager$tag_struct_hack_object[({0}S:S$hack_object_sound_play$0$0({1}SC:U),Z,0,0)]
+S:G$global_hack_object$0$0({1}STtag_struct_hack_object:S),E,0,0

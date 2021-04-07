@@ -16,10 +16,13 @@ void main(void)
 
 	engine_content_manager_load_tiles();
 	engine_content_manager_load_sprites();
+	engine_riff_manager_init();
+	engine_hack_manager_init();
+	engine_hack_manager_load();
+	engine_hack_manager_invert();
+	engine_scroll_manager_reset();
 
 	open_screen_type = screen_type_splash;
-
-	engine_scroll_manager_reset();
 	engine_screen_manager_init( open_screen_type );
 	devkit_SMS_displayOn();
 	for (;;)

@@ -1,7 +1,7 @@
 #ifndef _GLOBAL_MANAGER_H_
 #define _GLOBAL_MANAGER_H_
 
-#define MAX_SCREEENS			6
+#define MAX_SCREEENS			7
 #define MAX_RECORDS				12
 #define CURSOR_TILES			256 + 32
 
